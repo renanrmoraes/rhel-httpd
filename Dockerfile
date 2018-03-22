@@ -1,4 +1,4 @@
-FROM rhel7
+FROM my-rhel7:latest
 MAINTAINER "Scott Collier" <scollier@redhat.com>
 
 RUN yum -y update; yum clean all
